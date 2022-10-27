@@ -1,0 +1,147 @@
+/* Home CSS */
+.btn1 {
+    border-radius: 40px;
+    color: black;
+    text-decoration: none;
+}
+
+.btn1:hover {
+    border-color: #ff8000;
+    box-shadow: 0 0 20px #ff8000, 0 0 10px #ff8000, 0 0 5px #453939;
+}
+
+.btnSearch {
+    border-radius: 20px;
+    background-color: #ff8000;
+    color: white;
+}
+
+.btnSearch:hover {
+    border-radius: 20px;
+    background-color: #ff8000;
+    color: white;
+
+}
+
+.main {
+    font-size: 20px;
+}
+
+.parentClass {
+    height: 70vh;
+}
+
+.childClass {
+    width: auto;
+    height: auto;
+}
+
+.InnerContainer {
+    width: 20rem
+}
+
+.form-control-home {
+    border-radius: 15px;
+}
+
+/* Sign Up CSS */
+
+.signup {
+    font-size: 14px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 8px;
+    background-color: white;
+    color: black;
+    text-align: center;
+    width: 80%;
+    height: 13%;
+    position: relative;
+    bottom: 75px;
+}
+
+.signup:hover {
+    cursor: pointer;
+    color: white;
+    background-color: #ff8000;
+}
+
+.signor {
+    position: relative;
+    text-align: center;
+    bottom: 65px;
+    width: 8.333333%;
+    height: 1%;
+}
+
+.items {
+    display: flex;
+}
+
+
+@media screen and (max-width:767px) {
+    
+    .form-class,
+    .items {
+        width: -webkit-fill-available;
+    }
+}
+
+/* Nav BAR CSS */
+/* NavBar */
+
+.AllDetails{
+    display: flex;
+}
+
+@media screen and (max-width:992px) {
+    .AllDetails{
+        flex-direction: column;
+    }
+}
+
+@media screen and (min-width:992px) {
+    .navbar .container-fluid,
+    .collapse .navbar-nav {
+        flex-direction: column;
+        align-content: center center/flex-start;
+        justify-content: center;
+    }
+
+    .navbar {
+        width: 35%;
+        height: 100vh;
+    }
+
+    .Forall {
+        display: flex;
+    }
+
+    /* Personal Detail */
+    .details{
+        height: 100vh;
+    }
+}
+
+.btnPD {
+    border: none;
+    border-radius: 40px;
+    color: white;
+    text-decoration: none;
+}
+
+.btnPD:hover {
+    border-color: white;
+    box-shadow: 0 0 20px white, 0 0 10px white, 0 0 5px #453939;
+}
+
+/* Personal Detail */
+
+.gen:checked{
+    background-color: #ff8000;
+    border-color: #ff8000;
+    cursor: pointer;
+}
+.gen:hover{
+    cursor: pointer;
+}

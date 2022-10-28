@@ -7,7 +7,7 @@ export default function Home(props) {
     return (
         <><div className="container-fluid">
             <div className="row">
-                <div className="parent-class col-md-5 align-items-center" style={{ height: '100vh', backgroundColor: '#ff8000' }}>
+                <div className="parent-class col-md-4 align-items-center" style={{ height: '100vh', backgroundColor: '#ff8000' }}>
                     <div className="container">
                         <div className="parent-div d-flex justify-content-center align-items-center flex-column" style={{ height: '90vh' }}>
                             <img src={props.logo} className="img-fluid py-3" alt="..." style={{ height: '70px' }} />
@@ -15,7 +15,7 @@ export default function Home(props) {
                         </div>
                     </div>
                 </div>
-                <div className="parent-class col-md-7 align-items-center">
+                <div className="parent-class col-md-8 align-items-center">
 
                     <div className="d-flex flex-row-reverse">
                         <Link to='ForEmployee' className="btn btn1 px-3 my-5 mx-4" >For Employers</Link>
